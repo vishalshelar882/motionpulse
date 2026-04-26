@@ -8,13 +8,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react(), tailwindcss()],
-
-<<<<<<< HEAD
     base: '/', // ✅ FIXED (note trailing slash)
-=======
-    base: '/motionpulse', // ✅ FIXED (note trailing slash)
->>>>>>> a116456f0901713109ed5254b4d424e5ee1cafd5
-
     define: {
       // keep empty or use for actual env replacements
     },
